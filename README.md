@@ -21,8 +21,12 @@ Due to privacy concern, the original data set and other team member's codes are 
 - Firstly, we built **OLS** as a benchmark for variables selection for other model, then applying Backward Selection to filter valuable varibles. From there, using VIF to eliminate multicollinearity of the selected variables to build a **Logistic Regression**. The two models can be illustrated as:  
 <img src="Logit + OLS.png?raw=true"/>  
 
-- Secondly, we built a **Decision Tree** model. Due to the characteristic of the Decision Tree model (variable selection is not neccessary), we used the decision tree to again *verify the important varibles to get a better descriptive result of buyer's demographic for Amazon*. However, the decision tree, without prunning, expanded significantly and became extremely hard to interpret.  
-<img src="tree.png?raw=true"/>  
-   
+- Secondly, we built a **Decision Tree** model. Due to the characteristic of the Decision Tree model (variable selection is not neccessary), we used the decision tree to again *verify the important varibles to get a better descriptive result of buyer's demographic for Amazon*. However, the decision tree, without prunning, expanded significantly and became extremely hard to interpret.    
+  
+- Hence, in order to have a more accuracy and meaningful result, we decided to ***break down the 10 original continuous variables into 35 categorical dummies.***
+
+**3. Model with Categorical Dummies**:  
+- **Logistic Model**: we first created the Logistic Model as a benchmark model for others. The model can be summarized as:  
+<img src="logit_cat.jpg?raw=true"/>
 
 
