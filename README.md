@@ -19,7 +19,10 @@ Due to privacy concern, the original data set and other team member's codes are 
 
 **2. Model Building:**    
 - Firstly, we built **OLS** as a benchmark for variables selection for other model, then applying Backward Selection to filter valuable varibles. From there, using VIF to eliminate multicollinearity of the selected variables to build a **Logistic Regression**. The two models can be illustrated as:  
-<img src="Logit + OLS.png?raw=true"/>
+<img src="Logit + OLS.png?raw=true"/>  
+
+- Secondly, we built a **Decision Tree** model. Due to the characteristic of the Decision Tree model (variable selection is not neccessary), we used the decision tree to again *verify the important varibles to get a better descriptive result of buyer's demographic for Amazon*. However, the decision tree, without prunning, expanded significantly and became extremely hard to interpret.  
+<img src="tree.png?raw=true"/>  
    
 
 
