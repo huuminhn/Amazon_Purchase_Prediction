@@ -24,6 +24,8 @@ Due to privacy concern, the original data set and other team member's codes are 
 - Secondly, we built a **Decision Tree** model. Due to the characteristic of the Decision Tree model (variable selection is not neccessary), we used the decision tree to again *verify the important varibles to get a better descriptive result of buyer's demographic for Amazon*. However, the decision tree, without prunning, expanded significantly and became extremely hard to interpret. The original continuous variables can provide a solution to the classification problem, but will not be descriptive when it comes to finding customer's demographic.    
   
 - Hence, in order to have a more accuracy and meaningful result, we decided to ***break down the 10 original continuous variables into 35 categorical dummies.***
+Below here is how I create the dummies variables:  
+<img src="dummies.jpg?raw=true"/>  
 
 **3. Model with Categorical Dummies**:  
 - **Logistic Model**: we first created the Logistic Model as a benchmark model for others. The model can be summarized as:  
