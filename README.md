@@ -15,7 +15,8 @@ Due to privacy concern, the original data set and other team member's codes are 
 - Plot histogram, correlation matrix, and VIF scores to test multicolinearity.  
 - Realized the data is highly skewed toward y_buy ( dependent variable), hence various approach had been taken to cope with this imbalanced data set, namely *Undersampled, Oversampled and SMOTE*. As a result, we decided that **Undersample** will be the most suitable method for this dataset. Briefly, Undersampling techniques remove examples from the training dataset that belong to the majority class in order to better balance the class distribution, such as reducing the skew from a 1:100 to a 1:10, 1:2, or even a 1:1 class distribution.  
   In our case, the Undersampled result can be illustrated as:   
-<img src="Undersampled.png?raw=true"/> 
+<img src="Undersampled.png?raw=true"/>  
+
 **2. Model Building:**    
 - Firstly, we built **OLS** as a benchmark for variables selection for other model, then applying Backward Selection to filter valuable varibles. From there, using VIF to eliminate multicollinearity of the selected variables to build a **Logistic Regression**. The two models can be illustrated as:  
 <img src="Logit + OLS.png?raw=true"/>
