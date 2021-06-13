@@ -21,12 +21,16 @@ Due to privacy concern, the original data set and other team member's codes are 
 - Firstly, we built **OLS** as a benchmark for variables selection for other model, then applying Backward Selection to filter valuable varibles. From there, using VIF to eliminate multicollinearity of the selected variables to build a **Logistic Regression**. The two models can be illustrated as:  
 <img src="Logit + OLS.png?raw=true"/>  
 
-- Secondly, we built a **Decision Tree** model. Due to the characteristic of the Decision Tree model (variable selection is not neccessary), we used the decision tree to again *verify the important varibles to get a better descriptive result of buyer's demographic for Amazon*. However, the decision tree, without prunning, expanded significantly and became extremely hard to interpret.    
+- Secondly, we built a **Decision Tree** model. Due to the characteristic of the Decision Tree model (variable selection is not neccessary), we used the decision tree to again *verify the important varibles to get a better descriptive result of buyer's demographic for Amazon*. However, the decision tree, without prunning, expanded significantly and became extremely hard to interpret. The original continuous variables can provide a solution to the classification problem, but will not be descriptive when it comes to finding customer's demographic.    
   
 - Hence, in order to have a more accuracy and meaningful result, we decided to ***break down the 10 original continuous variables into 35 categorical dummies.***
 
 **3. Model with Categorical Dummies**:  
 - **Logistic Model**: we first created the Logistic Model as a benchmark model for others. The model can be summarized as:  
 <img src="logit_cat.jpg?raw=true"/>
+One interesting point is that **just_visit** and **visit_last_week** came from the **last_visit** varible, which also included in our *numeric logistic model*. So these dummies actually breakdown  of what included in the previous model. Which mean, more or less, this categorical model had successfully answered our concern on the demographic of potential customers. This will be a valuable information that will be used to provide business insights and recommendation later on.  
+- **Decision Tree, Random Forest, KNN, Neutral Network, XG Boosting**: we built all of the other models to compare their confusion matrixes to select the one with the best performance, and turnt out it was **KNN**. From here, we select KNN as our main model for classification.  
+
+**4. Classification with K-Nearest-Neighbour**:  
 
 
