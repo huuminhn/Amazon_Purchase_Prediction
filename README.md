@@ -10,5 +10,11 @@ Due to privacy concern, the original data set and other team member's codes are 
  
 ---
 #### Project Outlines:
-
+1. Data Cleaning and EDA:  
+- Fill in the NaN with 0, drop 'Unamed' columns. 
+- Plot histogram, correlation matrix, and VIF scores to test multicolinearity.  
+- Realized the data is highly skewed toward y_buy ( dependent variable), hence various approach had been taken to cope with this imbalanced data set, namely *Undersampled, Oversampled and SMOTE*. As a result, we decided that Undersample will be the most suitable method for this dataset.  
+<img src="Undersampled.png?raw=true"/> 
+2. Model Building:  
+- 
 
