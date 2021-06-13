@@ -13,7 +13,8 @@ Due to privacy concern, the original data set and other team member's codes are 
 1. Data Cleaning and EDA:  
 - Fill in the NaN with 0, drop 'Unamed' columns. 
 - Plot histogram, correlation matrix, and VIF scores to test multicolinearity.  
-- Realized the data is highly skewed toward y_buy ( dependent variable), hence various approach had been taken to cope with this imbalanced data set, namely *Undersampled, Oversampled and SMOTE*. As a result, we decided that Undersample will be the most suitable method for this dataset.  
+- Realized the data is highly skewed toward y_buy ( dependent variable), hence various approach had been taken to cope with this imbalanced data set, namely *Undersampled, Oversampled and SMOTE*. As a result, we decided that **Undersample** will be the most suitable method for this dataset. Briefly, Undersampling techniques remove examples from the training dataset that belong to the majority class in order to better balance the class distribution, such as reducing the skew from a 1:100 to a 1:10, 1:2, or even a 1:1 class distribution.  
+  The Undersampled result from our dataset:   
 <img src="Undersampled.png?raw=true"/> 
 2. Model Building:  
 - 
