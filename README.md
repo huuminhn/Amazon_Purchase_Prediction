@@ -27,8 +27,10 @@ Due to privacy concern, the original data set and other team member's codes are 
 
 **3. Model with Categorical Dummies**:  
 - **Logistic Model**: we first created the Logistic Model as a benchmark model for others. The model can be summarized as:  
-<img src="logit_cat.jpg?raw=true"/>
+<img src="logit_cat.jpg?raw=true"/>  
+
 One interesting point is that **just_visit** and **visit_last_week** came from the **last_visit** varible, which also included in our *numeric logistic model*. So these dummies actually breakdown  of what included in the previous model. Which mean, more or less, this categorical model had successfully answered our concern on the demographic of potential customers. This will be a valuable information that will be used to provide business insights and recommendation later on.  
+
 - **Decision Tree, Random Forest, KNN, Neutral Network, XG Boosting**: we built all of the other models to compare their confusion matrixes to select the one with the best performance, and turnt out it was **KNN**. From here, we select KNN as our main model for classification.  
 
 **4. Classification with K-Nearest-Neighbour**:  
