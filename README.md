@@ -37,6 +37,7 @@ One interesting point is that **just_visit** and **visit_last_week** came from t
 
 **4. Classification with K-Nearest-Neighbour**:  
 <img src="KNN.png?raw=true"/>  
+<img src="ROC.png?raw=true"/>  
 **KNN** performed the best at 94% accuracy and 58% recall.  
 
 **5. Insights and Recommendation:**  
