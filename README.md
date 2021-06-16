@@ -36,7 +36,7 @@ One interesting point is that **just_visit** and **visit_last_week** came from t
 - **Decision Tree, Random Forest, KNN, Neutral Network, XG Boosting**: we built all of the other models to compare their confusion matrixes to select the one with the best performance, and turnt out it was **KNN**. From here, we select KNN as our main model for classification.  
 
 **4. Classification with K-Nearest-Neighbour**:  
-<img src="KNN.ppg?raw=true"/>  
+<img src="KNN.png?raw=true"/>  
 **KNN** performed the best at 94% accuracy and 58% recall.  
 
 **5. Insights and Recommendation:**  
