@@ -45,9 +45,10 @@ One interesting point is that **just_visit** and **visit_last_week** came from t
 - User Profile: a customer who will make the next purchase is a past user, who last visited the website within 0 to 7 days and have a habit revisiting Amazon every 5-30 days.  
 - New user conversion: Personalized calls-of-action through email/target marketing to convert leads to new customers with digital engagement.  
 - Current customer management:   
-Adding CLV to current customers     
-Use Predictions for early warning for supply chain management    
-If 'expected' variables provided are from a model, reevaluate    
+Adding CLV to current customers.  
+
+Use Predictions for early warning for supply chain management.      
+If 'expected' variables provided are from a model, reevaluate.    
 
  
 
