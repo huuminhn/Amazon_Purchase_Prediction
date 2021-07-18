@@ -1,5 +1,5 @@
 # Amazon Purchase Prediction:
-This is  academic project with the aim of predicting the potential customers and their demographic characteristics.  
+This is a academic project with the aim of predicting the potential customers and their demographic characteristics.  
 Due to privacy concern, the original data set and other team member's codes are not allowed to be shared. The name of the files and variables, columns are also changed to ensure the privacy of content for the data.  
 
 --- 
