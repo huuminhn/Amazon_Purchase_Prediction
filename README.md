@@ -46,9 +46,7 @@ One interesting point is that **just_visit** and **visit_last_week** came from t
 - New user conversion: Personalized calls-of-action through email/target marketing to convert leads to new customers with digital engagement.  
 - Current customer management:  
    
-Adding CLV to current customers.  
-Use Predictions for early warning for supply chain management.      
-If 'expected' variables provided are from a model, reevaluate.    
+ 
 
  
 
